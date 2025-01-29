@@ -1,0 +1,5 @@
+/* src/styles/map.css */
+.map-container {
+    position: relative;
+    z-index: 1; /* Set a low z-index value */
+  }

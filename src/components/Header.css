@@ -1,0 +1,15 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid var(--text-color);
+  }
+  
+  .cursor {
+    animation: blink 1s step-end infinite;
+  }
